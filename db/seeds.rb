@@ -1,10 +1,9 @@
 # Create default admin user for developing
-puts "Create default admin user"
 Erp::User.create(
-  email: "admin@globalnaturesoft.com",
-  password: "aA456321@",
-  name: "Super Admin",
+  email: "1633514@hcmut.edu.vn",
+  password: "1633514",
+  name: "Nguyễn Tôn Hùng",
   backend_access: true,
   confirmed_at: Time.now-1.day,
   active: true
-) if Erp::User.where(email: "admin@globalnaturesoft.com").empty?
+) if Erp::User.where(email: "1633514@hcmut.edu.vn").empty?

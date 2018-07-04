@@ -231,7 +231,7 @@ vi:
               blank: "không được để trống"
             email:
               blank: "không được để trống"
-              invalid: "không hợp lệ. Ex: username@hoangkhang.com.vn"
+              invalid: "không hợp lệ. Ex: username@hcmut.edu.vn"
               taken: "đã được sử dụng"
             password:
               blank: "không được để trống"

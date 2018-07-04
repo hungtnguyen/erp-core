@@ -52,7 +52,7 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
-  config.action_mailer.default_url_options = { :host => 'timhangcongnghe.com' }
+  config.action_mailer.default_url_options = { :host => 'doan3.local' }
 
   # set delivery method to :smtp, :sendmail or :test
   config.action_mailer.delivery_method = :smtp
@@ -61,9 +61,9 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
     address: 'smtp.gmail.com',
     port: 587,
-    domain: 'globalnaturesoft.com',
-    user_name: 'soft.support@hoangkhang.com.vn',
-    password: 'aA456321@#$',
+    domain: 'hcmut.edu.vn',
+    user_name: '1633514@hcmut.edu.vn',
+    password: '123456',
     authentication: 'plain',
     enable_starttls_auto: true
   }

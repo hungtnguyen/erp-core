@@ -9,7 +9,7 @@ module Erp
     validates :name, :presence => true
     validates_format_of :email, :presence => true,
 												:with => /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i,
-												:message => " is invalid (Eg. 'username@globalnaturesoft.com')"
+												:message => " is invalid (Eg. '1633514@hcmut.edu.vn')"
     # validates :password, :length => { :minimum => 6, :maximum => 40 }, :confirmation => true
 
     belongs_to :creator, class_name: "Erp::User", optional: true
